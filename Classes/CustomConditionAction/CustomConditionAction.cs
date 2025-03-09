@@ -22,7 +22,7 @@ namespace IngameScript
 {
     partial class Program : MyGridProgram
     {
-        #region Custom Conition Action     
+        #region Custom Condition Action     
         public class CustomConditionAction<ConditionParameterType, CallbackParameterType>
         {
             public Action<CallbackParameterType> Callback;
